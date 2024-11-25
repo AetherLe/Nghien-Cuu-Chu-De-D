@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url("OpenInternet2.jpg");
+  display: grid;
+  
+  justify-items: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+
+
+#main{
+  position: fixed;
+  top: 5%;
+  bottom: 5%;
+  right:5%;
+  left:5%;
+  background: rgb(0, 0, 0, 1);
+  height:90%;
+  width:90%;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 251);
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.top{  
+  flex: 20;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 255, 251);
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+.bottom{
+  flex:2;  
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 1s;
+  padding: 5px;
+}
+
+.left-section{
+  flex: 2;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(45, 66, 201);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 99%;
+  width: 98%;
+  justify-items: center;
+  transition: all 1s;
+}
+
+/* .left-section:hover{
+  flex: 4;
+} */
+
+.profile{
+  flex: 3;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+/* .profile:hover{
+  flex: 5;
+  
+} */
+
+.info{
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: scroll;
+  transition: all 1s;
+  padding: 5px;
+  
+}
+
+
+/* .info:hover{
+  flex: 2;
+  overflow-Y: scroll;
+} */
+
+.achievement{
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 1s;
+  padding: 5px;
+}
+
+/* .achievement:hover{
+  flex: 2;
+  overflow-y: scroll;
+} */
+
+.essay{
+  flex: 1;  
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: scroll;
+  transition: all 1s;
+  padding: 5px;
+}
+
+
+
+/* .essay:hover{
+  flex: 10;
+  overflow-y: scroll;
+} */
+
+.right-section{
+  flex:1;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(45, 66, 201);
+  border-radius: 20px;
+  height: 99%;
+  width: 98%;
+  padding: 5px;
+  transition: all 1s;
+  overflow: scroll;
+}
+
+/* .right-section:hover{
+  flex: 6;
+} */
+#image{
+  size: 90%;
+}
